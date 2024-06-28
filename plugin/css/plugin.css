@@ -1,0 +1,224 @@
+.toplevel_page_filecoin-page #wpwrap{
+	background: #fff;
+}
+
+.box{
+	font-size:  14px;
+	padding: 50px;
+	box-sizing:  border-box;
+}
+
+.box h1{
+	margin-bottom: 50px;
+}
+
+.box form{
+	background: #73caca;
+	margin-bottom: 50px;
+	padding: 30px 20px;
+}
+
+.box form input[type="text"], .box form input[type="email"]{
+	padding: 5px !important;
+	max-width: 250px;
+	width: 100%;
+}
+
+.box form input[type="submit"], .box .btn{
+	padding: 5px 10px;
+	background: #000;
+	color: #fff;
+	-webkit-appearance: none;
+	border: 0px;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.box .btn{
+	padding: 7px 10px;
+}
+
+.box .table-hldr{
+	background: #fff;
+	padding: 30px;
+}
+
+.dataTables_wrapper .dataTables_length{
+	margin-bottom: 20px;
+}
+
+select{
+	width: 100px;
+}
+
+.box table thead th{
+	color: #2271b1;
+	font-weight: 700;
+	padding: 10px;
+}
+
+.clearfix{
+	clear: both;
+	display: block;
+}
+
+.user-stats *{
+	box-sizing: border-box;
+}
+
+.user-stats .row{
+	margin-bottom: 10px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.user-stats .flex{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:  wrap;
+}
+
+.user-stats .user-settings{
+	background: #f3f3f3;
+	padding: 30px;
+}
+
+.user-stats .group{
+	margin-right: 10px;
+	border: 1px solid #000;
+	width: calc(100%/3.1);
+}
+
+.user-stats .row .flex div{
+	display: block;
+	border-right:  1px solid #000;
+	padding: 10px;
+	line-height: 35px;
+	background: #fff;
+}
+
+.user-stats .row .flex .label{
+	font-weight: 700;
+	color: #2271b1;
+	width: 25%;
+}
+
+.user-stats .row .flex .val{
+	border-right: 0px;
+	width: 75%;
+}
+
+.user-stats .row .flex .val input[type="text"],
+.user-stats .row .flex .val input[type="email"]{
+	background: #ffffd6;
+}
+
+.user-stats .row .flex .val input.full-width{
+	width: 100%;
+}
+
+.user-stats .tables{
+	margin-top: 50px;
+}
+
+.user-stats .tables .flex{
+	justify-content: space-between;
+}
+
+.user-stats .tables .flex .col{
+	width: calc(100%/2.1);
+}
+
+.user-stats .scroll-box{
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+/* width */
+.user-stats .scroll-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.user-stats .scroll-box::-webkit-scrollbar-track {
+  background: #ebebeb;
+}
+
+/* Handle */
+.user-stats .scroll-box::-webkit-scrollbar-thumb {
+  background: #73caca;
+}
+
+/* Handle on hover */
+.user-stats .scroll-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.user-stats table{
+	border: 1px solid #000;
+	border-collapse: collapse;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.user-stats table thead tr{
+	border-bottom:  1px solid #000;
+}
+
+.user-stats table thead th{
+	border-right: 1px solid #000;
+}
+
+.user-stats table td{
+	width: 50%;
+	padding: 10px;
+	border-collapse:collapse;
+	border:  1px solid #000;
+	border-width: 0px 1px 1px 0px !important;
+}
+
+.user-stats #user-mgt-fee{
+	width: 60px;
+	min-width: auto !important;
+}
+
+.user-stats #save-user{
+	margin-top: 30px;
+}
+
+.reset{
+	margin-top: 10px;
+	padding: 5px 10px;
+    background: #ccc;
+    color: #000;
+    -webkit-appearance: none;
+    border: 0px;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1.5;
+    display: inline-block;
+}
+
+.reset:hover{
+	color: #000;
+}
+
+@media (max-width: 767px){
+	.box{
+		padding: 10px;
+	}
+	.user-stats .group,.user-stats .row .flex .label,.user-stats .row .flex .val{
+		width: 100%;
+	}
+	.user-stats .group{
+		margin-bottom: 10px;
+	}
+	.user-stats .row .flex .label{
+		border-right: 0px;
+		border-bottom: 1px solid #000;
+	}
+	.col{
+		width: 100% !important;
+		margin-bottom: 50px;
+	}
+}
